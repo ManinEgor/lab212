@@ -8,10 +8,9 @@ def get_status(url):
     except:
         return 404
 
-
 class TestCase(unittest.TestCase):
     def testCode(self):
-        self.assertEqual(200, get_status('https://www.google.com/'))
+        self.assertEqual(200, get_status('https://www.g323dsoogle.com/'))
 
 if __name__ == '__main__':
     tests = TestCase()
